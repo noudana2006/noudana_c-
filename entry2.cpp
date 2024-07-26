@@ -7,8 +7,8 @@ int main() {
     Students[2007535] = "parthiban"; Students[2007536] = "parthi";
     Students[2007537] = "Rajesh";
     std::cout << "map befor removal:" << endl;
-    for (const auto& pair :Students) {
-        std::cout << pair.first << ": " << pair.second << endl;
+    for (const auto& pair : Students) {
+        std::cout << pair.first << " : " << pair.second << endl;
     } cout << endl;
     // Remove an entry with key "tow"
     int keyToRemove = {2007536};
@@ -22,7 +22,7 @@ int main() {
     // Display the map after removing the entry
     cout << "Map after removel:" << endl;
     for (const auto& pair : Students) {
-        cout << pair.first << ": " << pair.second << endl;
+        cout << pair.first << " : " << pair.second << endl;
     }
     cout << endl;
     return 0;
